@@ -1,0 +1,182 @@
+/* Define a style for the body element */
+body {
+    font-family: 'ProductSans';
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+@font-face {
+    font-family: 'ProductSans'; /* Name for your custom font */
+    src: url('/fonts/ProductSans-Regular.ttf') format('truetype'); /* URL to your font file */
+}
+@font-face {
+    font-family: 'ProductSansB'; /* Name for your custom font */
+    src: url('/fonts/ProductSans-Bold.ttf') format('truetype'); /* URL to your font file */
+}
+
+/* Style headings */
+h1 {
+    font-family: 'ProductSans';
+    color: #333;
+    font-size: 24px;
+}
+
+/* Style paragraphs */
+p {
+    font-family: 'ProductSans';
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.header {
+    display: flex; /* Use flexbox to create a horizontal layout */
+    align-items: center; /* Vertically align items */
+    padding: 1px; /* Padding for text container */
+    background-color: #ffffff; /* Background color */
+}
+.cir-img {
+    width: 50px; /* Adjust the width and height to your desired circle size */
+    height: 50px;
+    overflow: hidden;
+    border-radius: 50%; /* Set border-radius to 50% to create a circle */
+    margin-left: 20px;
+    margin-right: 10px;
+    
+}
+.cir-img img {
+    width: 100%; /* Make sure the image takes up the full width of the container */
+    height: auto; /* Maintain the image's aspect ratio */
+    display: block; /* Remove any extra spacing around the image */
+}
+.header p {
+    margin-top: 15px;
+    font-size: 25px;
+}
+
+.curve-img {
+    width: 240px; /* Adjust the width and height to your desired circle size */
+    height: 240px;
+    overflow: hidden;
+    border-radius: 20%; /* Set border-radius to 50% to create a circle */
+    margin-left: 1037px;
+    margin-top: -110px;
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.582);
+    /* 4px horizontal offset, 4px vertical offset, 6px blur radius, shadow color */
+}
+.curve-img img {
+    width: 100%; /* Make sure the image takes up the full width of the container */
+    height: auto; /* Maintain the image's aspect ratio */
+    display: block; /* Remove any extra spacing around the image */
+}
+
+
+hr {
+    border: none;
+    border-top: 1px solid #0000003b; /* Change the line color and thickness */
+}
+
+.mod-text p {
+    font-family: 'ProductSansB';
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.page-container {
+    display: flex;
+    position: relative;
+}
+
+.page {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    position: absolute;
+    transition: opacity 0.5s;
+}
+
+.page1 {
+    background-color: #2196F3;
+}
+
+.page2 {
+    background-color: #4CAF50;
+}
+
+.overlay {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    pointer-events: none;
+    z-index: 1;
+    transition: opacity 0.5s;
+}
+
+.transition-link {
+    text-decoration: none;
+    padding: 10px 20px;
+    background: #FFC107;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
+
+.transition-link:hover {
+    background: #333;
+    color: #FFF;
+}
+
+
+
+
+
+.contact {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #ffffff; /* Background color */
+    color: #ffffff; /* Text color */
+    padding: 10px; /* Padding for text container */
+}
+.contact a {
+    color: rgb(12, 97, 209); /* Link color */
+    text-decoration: none; /* Remove underlines from links */
+}
+
+.contacts {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #ffffff; /* Background color */
+    color: #ffffff; /* Text color */
+    padding: 10px; /* Padding for text container */
+}
+.contacts a {
+    color: rgb(28, 60, 240); /* Link color */
+    text-decoration: none; /* Remove underlines from links */
+}
