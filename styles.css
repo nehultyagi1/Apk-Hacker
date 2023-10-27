@@ -13,7 +13,7 @@ body {
 }
 @font-face {
     font-family: 'ProductSansB'; /* Name for your custom font */
-    src: url('/fonts/ProductSans-Bold.ttf') format('truetype'); /* URL to your font file */
+    src: url('fonts/ProductSans-Bold.ttf') format('truetype'); /* URL to your font file */
 }
 
 /* Style headings */
