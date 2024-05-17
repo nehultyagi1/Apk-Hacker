@@ -5,6 +5,7 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
+
 }
 
 @font-face {
@@ -152,31 +153,62 @@ hr {
 
 
 
+/*Helping you with the footer of the Page*/
 
-.contact {
-    position: absolute;
+.footer{
+    margin-top: 500px;
+    margin-left: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    
+
+}
+
+.foot-panel-1
+{
+    background-color: #383f3c;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+
+}
+
+
+.foot-panel-3
+{
+    background-color:  #1a1619;
+    color: white;
+    border-top: 0.001px solid rgb(120, 120, 124) ;
+    height: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+
+
+
+.foot-panel-4
+{
+    background-color: #022e20;
+    color: white;
+    height: 100px;
+    font-size: 0.92 rem;
     text-align: center;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: #ffffff; /* Background color */
-    color: #ffffff; /* Text color */
-    padding: 10px; /* Padding for text container */
-}
-.contact a {
-    color: rgb(12, 97, 209); /* Link color */
-    text-decoration: none; /* Remove underlines from links */
+    margin-bottom: 0;
 }
 
-.contacts {
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: #ffffff; /* Background color */
-    color: #ffffff; /* Text color */
-    padding: 10px; /* Padding for text container */
+
+.copyright
+{
+   
+    padding: 5px;
 }
-.contacts a {
-    color: rgb(28, 60, 240); /* Link color */
-    text-decoration: none; /* Remove underlines from links */
-}
+
+
+
